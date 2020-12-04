@@ -170,9 +170,7 @@ p {
 .downloadThumbnail {
     width: 65px;
 }
-.dlThumb {
 
-}
 .dlText {
     font-size: 1.75em;
 }
@@ -205,9 +203,7 @@ p {
     height: auto;
     border: 0;
 }
-.prev-video-wrap {
 
-}
 .prevHalfVideo {
     display: block;
     position: absolute;

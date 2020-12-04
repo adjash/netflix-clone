@@ -1,0 +1,44 @@
+@media screen and (max-width:47.938em) {
+    .half-half-wrapper {
+        flex-direction: column;
+    }
+    .copy-half {
+        width: 100%;
+        padding: 2em 0em;
+    }
+    .video-half {
+        width: 100%;
+    }
+    .mobile-half {
+        width: 100%;
+    }
+    .faqToggles {
+        width: 100%;
+    }
+    .showDownloadBox {
+    display: none;
+    }
+}
+
+/* Tablet, Laptop, & Small Desktop */
+@media screen and (min-width:48em) and (max-width:63.938em) {
+.half-half-wrapper {
+    flex-direction: column;
+}
+.copy-half {
+    width: 100%;
+    padding: 2em 0em;
+}
+.video-half {
+    width: 100%;
+}
+.mobile-half {
+    width: 100%;
+}
+.faqToggles {width: 100%;}
+}
+
+/* iPad Pro & Similar */
+@media screen and (orientation:portrait) and (min-width:1024px) {
+
+}
