@@ -22,10 +22,19 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    padding: 0em 6em;
+    padding: 1em 3em;
 }
 .nav-logo {
-    width: 125px;
+    width: 175px;
+}
+.nav-signUp {
+    transition: all .1s ease-in;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    padding: .5em .5em;
+    border-radius: 4px;
 }
 .hero-p {
     font-size: 1.75rem;
@@ -76,6 +85,7 @@ p {
     border: none;
     color: white;
     width: 25%;
+    border-radius: 4px;
 }
 .signUp-btn:hover {
     background-color: #f40612;
