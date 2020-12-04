@@ -1,4 +1,14 @@
 @media screen and (max-width:47.938em) {
+    h1 {
+        font-size: 2rem;
+    }
+    .hero-container {
+        padding-top: 5em;
+    }
+    .hero-background-filter {
+        height: 100%;
+    top: 0;
+    }
     .half-half-wrapper {
         flex-direction: column;
     }
@@ -17,6 +27,17 @@
     }
     .showDownloadBox {
     display: none;
+    }
+    #signup-form {
+        flex-direction: column;
+    }
+    #signup-email {
+        width: 100%;
+    }
+    .signUp-btn {
+        margin-top: 1em;
+        width: 100%;
+        padding: 1em 1em;
     }
 }
 

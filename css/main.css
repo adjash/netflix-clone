@@ -60,7 +60,7 @@ p {
     text-align: center;
 }
 .hero-background-filter {
-    background: rgb(0 0 0 / 53%);
+    background: rgb(0 0 0 / 0.8);
     display: block;
     position: absolute;
     width: 100%;
