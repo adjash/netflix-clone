@@ -42,13 +42,15 @@ p {
 }
 .hero-container {
     width: 100%;
-    min-height: 80vh;
+    min-height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url('../assets/hero-bg.jpg');
     background-size: cover;
     flex-direction: column;
+    position: relative;
+    border-bottom: 8px solid #222;
 }
 .hero-content {
     z-index: 1;
@@ -62,7 +64,7 @@ p {
     display: block;
     position: absolute;
     width: 100%;
-    height: 80vh;
+    height: 75vh;
     z-index: 0;
 }
 #signup-form {
@@ -89,4 +91,127 @@ p {
 }
 .signUp-btn:hover {
     background-color: #f40612;
+}
+
+.half-half {
+    background: #000000;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    border-bottom: 8px solid #222;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.half-half-wrapper{
+    max-width: 1400px;
+    display: flex;
+    width: 80vw;
+} 
+.copy-half {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0em 3em;
+}
+.copyHeader {
+    font-size: 3rem;
+}
+.copyHalf {
+    font-size: 1.75rem;
+}
+.video-half {
+    width: 50%;
+    display: block;
+    position: relative;
+    z-index: 5;
+}
+.halfVideo {
+    display: block;
+    position: absolute;
+    bottom: 25%;
+    width: 73%;
+    right: 14%;
+    z-index: -1;
+}
+.halfImage {
+    display: block;
+    z-index: 5;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+.mobile-half {
+    width: 50%;
+    position: relative;
+}
+.showThumbnail {
+    max-width: 100%;
+    height: auto;
+}
+.showDownloadBox {
+    position: absolute;
+    background-color: #000000;
+    border: 8px solid #222;
+    border-radius: 16px;
+    bottom: 0;
+    width: 50%;
+    max-height: 120px;
+    transform: translateX(23%);
+    padding: 1em 2em;
+    display: flex;
+    font-size: 0.5rem;
+    min-width: 350px;
+}
+.downloadThumbnail {
+    width: 65px;
+}
+.dlThumb {
+
+}
+.dlText {
+    font-size: 1.75em;
+}
+.dlText:nth-child(2){
+    color: #0070e8;
+}
+.dlThumb {
+    width: 33%;
+}
+.show-progress {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.loader{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    color: #0070e8;
+}
+
+.prev-halfimg {
+    display: block;
+    z-index: 5;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+.prev-video-wrap {
+
+}
+.prevHalfVideo {
+    display: block;
+    position: absolute;
+    bottom: 42%;
+    width: 65%;
+    right: 18%;
+    z-index: -1;
 }
