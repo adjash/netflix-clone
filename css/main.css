@@ -215,3 +215,49 @@ p {
     right: 19%;
     z-index: -1;
 }
+
+.faq-wrapper {
+    max-width: 1400px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq {
+    background: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-bottom: 8px solid #222;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.faqTitle{
+    font-size: 3em;
+    text-align: center;
+}
+.faqToggles {
+    width: 650px;
+}
+.toggle-title {
+    background-color: #303030;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 1.25em;
+    align-items: center;
+}
+.toggle-info {
+    background-color: #303030;
+    padding: 1em 2em;
+    height: 0;
+    opacity: 0;
+}
+.visible-toggle {
+    height: 100%;
+    opacity: 1;
+}
