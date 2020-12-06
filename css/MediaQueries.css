@@ -39,6 +39,9 @@
         width: 100%;
         padding: 1em 1em;
     }
+    .signInForm{
+        width: unset;
+    }
 }
 
 /* Tablet, Laptop, & Small Desktop */
